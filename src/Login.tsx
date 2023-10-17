@@ -26,7 +26,7 @@ const Login = () => {
                         </div>
                         <Link to='' className='text-blue-900'>Forgot Password?</Link>
                     </div>
-                    <button className='w-full mb-4 text-[18px] mt-6 rounded-full bg-white text-blue-800 hover:bg-blue-600 hover:text-white py-2 transition-colors duration-300' type="submit"><Link to ='/Todo'>Login</Link></button>
+                    <Link to ='/Todo'><button className='w-full mb-4 text-[18px] mt-6 rounded-full bg-white text-blue-800 hover:bg-blue-600 hover:text-white py-2 transition-colors duration-300' type="submit">Login</button></Link>
                     <div>
                         <span className='m-9'>New Here? <Link className='text-blue-500' to='/Register'>Create an Account</Link></span>
                     </div>
