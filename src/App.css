@@ -1,0 +1,18 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+#bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../src/assets/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
